@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Q3 | Exercise 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    body{
+      background: url('bgimage.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    }
+    img{
+      width: 80%;
+      height: 80%;
+    }
+    h2,p{
+      color: gold;
+      text-shadow: black;
+      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.70),
+                  -3px 5px 12px rgba(0, 0, 0, 0.70);
+
+    }
+    h4{
+      color: black;
+      text-shadow: black;
+      text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.70),
+                  -3px 5px 12px rgba(0, 0, 0, 0.70);
+    }
+  </style>
+</head>
+<body img>
+    <div class="container">
+      <h2>Bootstrap Tables</h2>
+      <p>Try the different Bootstrap table styles.</p>
+      <table class="table table-hover table-success">
+    <thead>
+      <tr>
+        <th scope="col" class="bg-info">Line Up</th>
+        <th scope="col" class="bg-info">Name</th>
+        <th scope="col" class="bg-info">Background</th>
+        <th scope="col" class="bg-info">Awards</th>
+      </tr>
+    </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Champion</th>
+          <td><img src="diaz.jpg" class="img-thumbnail"><br><br><b>Hidilyn Diaz</b></td>
+          <td>She is the 1st Filipino Gold Medalist, earning her title at the 2020 Tokyo Olympics.</td>
+          <td>Gold Medal in Weightlifting- Women's 55kg (Tokyo 2022)<br> Silver Medal (Rio 2016)</td>
+        </tr>
+        <tr>
+          <th scope="row">1st Runner-up</th>
+          <td><img src="petecio.jpg" class="img-thumbnail"><br><br><b>Nesthy Petecio</b></td>
+          <td>She is the first Filipino woman to win an Olympic medal in Boxing.</td>
+          <td>Silver Medal in Boxing-Women's Feather (Tokyo 2022)<br>Silver Medal (World's 2014)</td>
+        </tr>
+        <tr>
+          <th scope="row">2nd Runner-up</th>
+          <td><img src="paalam.jpg" class="img-thumbnail"><br><br><b>Carlo Paalam</b></td>
+          <td>At his first Olympics, Carlo Paalam won a Silver Medal against Great Britain.</td>
+          <td>Silver Medal in Boxing-Men's Flyweight (Tokyo 2022)<br>Gold Medal (30th Sea Games)</td>
+        </tr>
+        <tr>
+          <th scope="row">3rd Runner-up</th>
+          <td><img src="velasco.jpg" class="img-thumbnail"><br><br><b>Mansueto Velasco</b></td>
+          <td>Before changing career paths, he was a boxer in his prime. Velasco represented the Philippines and won a Silver Medal in his sport.</td>
+          <td>Silver Medal in Boxing (Atlanta 1996)</td>
+        </tr>
+        <tr>
+          <th scope="row">4th Runner-up</th>
+          <td><img src="marcial.jpg" class="img-thumbnail"><br><br><b>Eumir Marcial</b></td>
+          <td>After failing to qualify or the Rio 2016 Olympics, he made a comeback during the recent 2022 Tokyo Olymics, becoming a Bronze Medalist in boxing.</td>
+          <td>Bronze Medal Boxing-Men's Middle (Tokyo 2022)</td>
+        </tr>
+      </tbody>
+      </table>
+    </tbody>
+  </table>
+</div>
+<!-- Filipino Summer Olympic Medalists | House and Lot. (2020, August 1). Lumina Homes. https://www.lumina.com.ph/news-and-blogs/blogs/filipino-pride-list-of-summer-olympic-medalists/-->
+<div class="container bg-info">
+  <h4>Signup Today!</h4>
+  <form class="form-horizontal" action="/action_page.php">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="email">Email:</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="email" placeholder="Input email" name="email">
+          </div> 
+        </div>
+<div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+          <div class="col-sm-10">
+            <input type="Password" class="form-control" id="pwd" placeholder="Input password" name="pwd">
+          </div> 
+        </div>
+<div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Phone number</label>
+          <div class="col-sm-10">
+            <input type="Phone" class="form-control" id="pwd" placeholder="Input number" name="no">
+          </div> 
+        </div>
+<div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Yearly Price Plan:</label>
+          <div class="col-sm-10">
+            <div class="col-sm-10">
+              <input type="radio" id="gr7" name="gr_section" value="gr7">
+                <label for="fname">12,000 (5-6 articles per month)</label><br>
+              <input type="radio" id="gr7" name="gr_section" value="gr7">
+                <label for="fname">15,000 (9-10 articles per month)</label><br>
+              <input type="radio" id="gr7" name="gr_section" value="gr7">
+                <label for="fname">18,000 (15-20 articles per month)</label><br>
+              <input type="radio" id="gr7" name="gr_section" value="gr7">
+                <label for="fname">21,000 (20-30 articles per month)</label><br>
+          </div> 
+        </div>
+      </div>
+<div class="form-group">
+        <div class="col-sm-ofset-2 col-sm-10">
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember">Don't Forget Me</label>        
+         </div> 
+       </div>
+     </div>
+<div class="form-group">
+  <div class="col-sm-ofset-2 col-sm-10">
+    <button type="submit" class="btn btn-success">Sign Me Up!</button>
+      <button type="reset" class="btn btn-danger">Cancel</button>
+    </div>
+  </div>
+</form>
+</div>
+</body>
+</html>
